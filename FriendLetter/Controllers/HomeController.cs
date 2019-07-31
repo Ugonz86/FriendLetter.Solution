@@ -40,5 +40,11 @@ namespace FriendLetter.Controllers
 
       return View(myLetterVariable);
     }
+
+    [Route("/favorite_photos")]
+    public ActionResult FavoritePhotos()
+    {
+      return View();
+    }
   }
 }
